@@ -14,6 +14,7 @@ using System.Windows.Forms;
 namespace BluetoothGUISample
 {    
 
+
     public partial class Form1 : Form
     {
         // Declare variables to store inputs and outputs.
@@ -22,7 +23,7 @@ namespace BluetoothGUISample
         int Input2 = 0;
 
         // Circumference of Decoder DIsc
-        //
+        // 
 
         byte[] Outputs = new byte[4];
         byte[] Inputs = new byte[4];
